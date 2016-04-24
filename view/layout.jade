@@ -17,18 +17,18 @@ html(lang='en')
 
         //- SEO
         meta(name='description', content='Your work happiness meter')
-        meta(name='keywords', content='nodejs, javascript, node.js, node, js, london, digital, transformation, enterprise, community')
+        meta(name='keywords', content='nodejs, javascript, node.js, node, js, budapest, digital, transformation, enterprise, community')
 
         //- Icons
         link(rel='shortcut icon', href='/assets/icons/favicon.ico', type='image/png')
 
         //- OpenGraph
-        meta(property='og:url', content='http://london.nodeconf.com')
+        meta(property='og:url', content='http://budapest.nodeconf.com')
         meta(property='og:type', content='website')
         meta(property='og:site_name', content='NodeConf London 2016')
         meta(property='og:title', content='NodeConf London 2016 - Wed 11th May 2016')
         meta(property='og:description', content='NodeConf London will bring together our industry\'s enterprise heavyweights, our subject experts and highlight the finest talent London has to offer.')
-        meta(property='og:image', content='http://london.nodeconf.com/assets/illustrations/share-image.png')
+        meta(property='og:image', content='http://budapest.nodeconf.com/assets/illustrations/share-image.png')
         meta(property='og:image:width', content='1200')
         meta(property='og:image:height', content='630')
 
@@ -45,7 +45,7 @@ html(lang='en')
         //- Title
         title
             block title
-                | NodeConf London 2016
+                | NodeConf Budapest 2016
 
     body
 
@@ -55,7 +55,7 @@ html(lang='en')
 
             a.logo(href='/', title='NodeConf Logo')
                 img(src='/assets/logo/nodeconf.svg', alt='NodeConf')
-                span London,&nbsp;2016
+                span Budapest,&nbsp;2016
 
             a.hamburger(data-touch-element, data-navigation-toggle): .inner
                 span
@@ -68,12 +68,12 @@ html(lang='en')
 
             ul.nav(data-navigation)
                 li: a(href='/#hero') Home
-                li: a(href='/scholarship') Scholarship
-                //- li: a(href='/call-for-speakers') Call for Speakers
-                li: a(href='/#speakers') Speakers
-                li: a(href='/#venue') Venue
+                //- li: a(href='/scholarship') Scholarship
+                li: a(href='/call-for-speakers') Call for Speakers
+                //- li: a(href='/#speakers') Speakers
+                //- li: a(href='/#venue') Venue
                 li: a(href='/#sponsors') Sponsors
-                li: a(href='/#schedule') Schedule
+                //- li: a(href='/#schedule') Schedule
                 li: a(href='/code-of-conduct') Code of Conduct
 
         block main-content
@@ -81,16 +81,18 @@ html(lang='en')
         footer: .page-size
 
             ul.links
-
-                li: a.contact-github(href='https://github.com/tancredi/nodeconf-london-2016', alt='Fork on Github', target='_blank')
+              
+                li: a.fork-of-london(href='https://github.com/tancredi/nodeconf-london-2016', alt='Fork on Github', target='_blank') Based on NodeConf London
+                  
+                li: a.contact-github(href='https://github.com/risingstack/nodeconf-budapest-2016', alt='Fork on Github', target='_blank')
                     i.icon-github
                     span Fork Us
 
-                li: a.contact-twitter(href='https://twitter.com/nodeconf_london', alt='Twitter', target='_blank')
+                li: a.contact-twitter(href='https://twitter.com/nodeconfbp', alt='Twitter', target='_blank')
                     i.icon-twitter
                     span @nodeconf_london
 
-                li: a.contact-email(href='mailto:ian.crowther@nearform.com?Subject=NodeConf%20London%202016%20-%20Enquiry', alt='Email', target='_blank')
+                li: a.contact-email(href='mailto:nodeconf@risingstack.com?Subject=NodeConf%20London%202016%20-%20Enquiry', alt='Email', target='_blank')
                     i.icon-mail
                     span Contact Us
 
@@ -103,5 +105,5 @@ html(lang='en')
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-68746809-2', 'auto');
+            ga('create', 'UA-50415716-13', 'auto');
             ga('send', 'pageview');
