@@ -1,3 +1,10 @@
 {
-  "speakers": []
+  "speakers": [
+    {
+      "avatar": "assets/photos/speakers/danny_grander.jpg",
+      "name": "Danny Grander",
+      "title": "Writing Secure Node Code",
+      "twitter_handle": "grander"
+    }
+  ]
 }

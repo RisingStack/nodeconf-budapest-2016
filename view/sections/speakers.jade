@@ -15,11 +15,10 @@ section#speakers(full-height): .page-size
 
                 <div class='row'>
 
-            li.col-4(class='category-' + speaker.category + '-it')
+            li.col-4
 
                 .avatar-wrap
                     img.avatar(src='#{speaker.avatar}')
-                    .badge= speaker.category.substr(0, 1).toUpperCase() + speaker.category.substr(1) + ' it'
 
                 h4 #{speaker.name}
 
