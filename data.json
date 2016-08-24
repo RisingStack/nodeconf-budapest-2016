@@ -5,6 +5,11 @@
       "name": "Danny Grander",
       "title": "Writing Secure Node Code",
       "twitter_handle": "grander"
+    }, {
+      "avatar": "assets/photos/speakers/richard_rodger.jpg",
+      "name": "Richard Rodger",
+      "title": "Solving service discovery in Node.js with SWIM",
+      "twitter_handle": "rjrodger"
     }
   ]
 }
