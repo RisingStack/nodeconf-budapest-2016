@@ -10,6 +10,11 @@
       "name": "Richard Rodger",
       "title": "Solving service discovery in Node.js with SWIM",
       "twitter_handle": "rjrodger"
+    }, {
+      "avatar": "assets/photos/speakers/peter_marton.jpg",
+      "name": "Peter Marton",
+      "title": "Breaking down the monolith",
+      "twitter_handle": "slashdotpeter"
     }
   ]
 }
