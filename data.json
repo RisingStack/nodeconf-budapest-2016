@@ -15,6 +15,11 @@
       "name": "Peter Marton",
       "title": "Breaking down the monolith",
       "twitter_handle": "slashdotpeter"
+    }, {
+      "avatar": "assets/photos/speakers/jan_lehnardt.jpg",
+      "name": "Jan Lehnardt",
+      "title": "Kill all Humans, Development Tool Automation Like a Pro",
+      "twitter_handle": "janl"
     }
   ]
 }
