@@ -25,6 +25,11 @@
       "name": "Mathias Buus",
       "title": "Peer-to-peer service architecture",
       "twitter_handle": "mafintosh"
+    }, {
+      "avatar": "assets/photos/speakers/lance_ball.png",
+      "name": "Lance Ball",
+      "title": "A View Into the Vortex, or Tracing Asynchronous Operations in Node",
+      "twitter_handle": "lanceball"
     }
   ]
 }

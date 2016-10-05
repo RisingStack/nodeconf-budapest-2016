@@ -27,8 +27,9 @@ section#speakers(full-height): .page-size
 
                 if speaker.bio
                     p !{speaker.bio}
-
-                a.twitter-handle(href='https://www.twitter.com/#{speaker.twitter_handle}', target='_blank') @#{speaker.twitter_handle}
+                    
+                if speaker.twitter_handle
+                    a.twitter-handle(href='https://www.twitter.com/#{speaker.twitter_handle}', target='_blank') @#{speaker.twitter_handle}
 
     //- br
 
