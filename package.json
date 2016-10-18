@@ -7,7 +7,9 @@
     "start": "http-server www -p ${PORT:-3000}",
     "build": "jade view --obj data.json -o www; browserify -v -t babelify lib/index -o www/js/index.js; stylus -u nib -u griddy style/index.styl -o www/css/styles.css",
     "watch": "jade view --obj data.json  -o www -w | watchify -v -t babelify lib/index.js -o www/js/index.js | stylus -u nib -u griddy style/index.styl -w -o www/css/styles.css",
-    "dev": "livereload www | http-server www -p ${PORT:-3000} | npm run watch"
+    "dev": "livereload www | http-server www -p ${PORT:-3000} | npm run watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -19,9 +21,11 @@
     "griddy": "^1.0.1",
     "http-server": "^0.9.0",
     "jade": "^1.11.0",
-    "livereload": "^0.4.1",
+    "livereload": "^0.6.0",
     "nib": "^1.1.0",
     "stylus": "^0.54.0",
-    "watchify": "^3.7.0"
-  }
+    "watchify": "^3.7.0",
+    "snyk": "^1.19.1"
+  },
+  "snyk": true
 }
