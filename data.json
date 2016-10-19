@@ -30,6 +30,16 @@
       "name": "Lance Ball",
       "title": "A View Into the Vortex, or Tracing Asynchronous Operations in Node",
       "twitter_handle": "lanceball"
+    }, {
+      "avatar": "assets/photos/speakers/daniel_khan.jpeg",
+      "name": "Daniel Khan",
+      "title": "I've been web developer for 17 years and this is what I've learned",
+      "twitter_handle": "dkhan"
+    }, {
+      "avatar": "assets/photos/speakers/tracy_osborn.jpg",
+      "name": "Tracy Osborn",
+      "title": "Writing Clear and Interesting Technical Content and Documentation",
+      "twitter_handle": "limedaring"
     }
   ]
 }
