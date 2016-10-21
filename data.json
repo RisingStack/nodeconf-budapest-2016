@@ -40,6 +40,11 @@
       "name": "Tracy Osborn",
       "title": "Writing Clear and Interesting Technical Content and Documentation",
       "twitter_handle": "limedaring"
+    }, {
+      "avatar": "assets/photos/speakers/thomas_watson.jpeg",
+      "name": "Thomas Watson",
+      "title": "Build your own JavaScript powered radio",
+      "twitter_handle": "wa7son"
     }
   ]
 }
