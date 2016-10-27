@@ -45,6 +45,11 @@
       "name": "Thomas Watson",
       "title": "Build your own JavaScript powered radio",
       "twitter_handle": "wa7son"
+    }, {
+      "avatar": "assets/photos/speakers/pedro_teixeira.jpeg",
+      "name": "Pedro Teixeira",
+      "title": "Making highly-available and scalable Node.js applications easy to build",
+      "twitter_handle": "pgte"
     }
   ]
 }
