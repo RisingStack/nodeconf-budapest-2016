@@ -50,6 +50,11 @@
       "name": "Pedro Teixeira",
       "title": "Making highly-available and scalable Node.js applications easy to build",
       "twitter_handle": "pgte"
+    }, {
+      "avatar": "assets/photos/speakers/hassy_veldstra.jpeg",
+      "name": "Hassy Veldstra",
+      "title": "Shipping Resilient And Scalable Applications With Node.js And Artillery",
+      "twitter_handle": "hveldstra"
     }
   ]
 }
