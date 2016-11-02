@@ -55,6 +55,11 @@
       "name": "Hassy Veldstra",
       "title": "Shipping Resilient And Scalable Applications With Node.js And Artillery",
       "twitter_handle": "hveldstra"
+    }, {
+      "avatar": "assets/photos/speakers/damien_tassone.jpeg",
+      "name": "Damien Tassone",
+      "title": "Large distributed desktop application design with Electron",
+      "twitter_handle": "dtassone"
     }
   ]
 }
