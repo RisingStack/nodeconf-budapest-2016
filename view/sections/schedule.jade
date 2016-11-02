@@ -5,57 +5,66 @@ section#schedule(full-height): .page-size
     h2.center Schedule
 
     table
+      
+        thead
+
+            tr
+                th.start 19 January 2016
+                th.start Start
+                th.end End
+                th.title Title
+
+        tbody
+
+          tr
+               td
+               td.start 16:00
+               td.end 18:00
+               td.title NodeSchool
+
+           tr
+                td
+                td.start 19:00
+                td.end 22:00
+                td.title Nodebp Meetup
 
         thead
 
             tr
 
+                th.start 20 January 2016
                 th.start Start
                 th.end End
-                th.speaker Speaker
                 th.title Title
-                th.segment Segment
 
         tbody
 
             tr
-                td.start 08:30
-                td.end 09:00
-                td.speaker
-                td.title Registration
-                td.segment
+                td
+                td.start 09:00
+                td.end 09:50
+                td.title Registration & Breakfast
 
             tr
-                td.start 09:05
-                td.end 09:10
-                td.speaker
+                td
+                td.start 09:50
+                td.end 10:00
                 td.title Welcome
-                td.segment
-
-            each speaker, i in speakers
-
-              tr(class=speaker.category + '-it')
-                  td.start #{speaker.start}
-                  td.end #{speaker.end}
-                  td.speaker
-                    a.twitter-handle(href='https://www.twitter.com/#{speaker.twitter_handle}', target='_blank')
-                      if speaker.twitter_handle
-                        | @#{speaker.twitter_handle}
-                  td.title #{speaker.title}
-                  td.segment
-                      if speaker.category
-                          | #{speaker.category} it
-
+                  
             tr
-                td.start 17:25
+                td
+                td.start 10:00
                 td.end 17:30
-                td.speaker
-                td.title Closing
-                td.segment
+                td.title Talks & Lunch & Coffee Breaks
 
             tr
+                td
                 td.start 17:30
+                td.end 17:35
+                td.title Closing
+
+            tr
+                td
+                td.start 17:35
                 td.end 19:00
-                td.speaker
                 td.title Drinks Reception
-                td.segment
