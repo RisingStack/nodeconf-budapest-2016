@@ -46,11 +46,6 @@
       "title": "Build your own JavaScript powered radio",
       "twitter_handle": "wa7son"
     }, {
-      "avatar": "assets/photos/speakers/pedro_teixeira.jpeg",
-      "name": "Pedro Teixeira",
-      "title": "Making highly-available and scalable Node.js applications easy to build",
-      "twitter_handle": "pgte"
-    }, {
       "avatar": "assets/photos/speakers/hassy_veldstra.jpeg",
       "name": "Hassy Veldstra",
       "title": "Shipping Resilient And Scalable Applications With Node.js And Artillery",
@@ -58,7 +53,7 @@
     }, {
       "avatar": "assets/photos/speakers/damien_tassone.jpeg",
       "name": "Damien Tassone",
-      "title": "Large distributed desktop application design with Electron",
+      "title": "Npm & Electron in a large distributed application",
       "twitter_handle": "dtassone"
     }
   ]
