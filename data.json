@@ -55,6 +55,11 @@
       "name": "Damien Tassone",
       "title": "Npm & Electron in a large distributed application",
       "twitter_handle": "dtassone"
+    }, {
+      "avatar": "assets/photos/speakers/flaki.jpeg",
+      "name": "István Szmozsánszky",
+      "title": "ARMed and dangerous",
+      "twitter_handle": "slsoftworks"
     }
   ]
 }
